@@ -14,7 +14,7 @@ hook.Add("PostGamemodeLoaded", "Gmod.Workshop.ChatHrp", function()
 
 			for i = 1, #players do
 
-				players[i]:ChatPrint("L'addon \"[JJK] Chat RP\" n'a pas chargé car il fonctionne uniquement sur le mode de jeu DarkRP ou mangaRP.")
+				players[i]:ChatPrint("L'addon \"Chat RP\" n'a pas chargé car il fonctionne uniquement sur le mode de jeu DarkRP ou mangaRP.")
 
 			end
 
